@@ -1,4 +1,3 @@
-# couchbd
 
 couchbd PHP lib
 ==================
