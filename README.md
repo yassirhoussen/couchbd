@@ -2,9 +2,7 @@
 couchbd PHP lib
 ==================
 
-This project is a simple couch library, wirte for php. It's based on a PHP-On-Couch project.
-
-How to use it ? Just see the test folder, and test file with some sample
+This project is a simple couch library, wirte for php. How to use it ? Just see the test folder
 
 
 Credits :
