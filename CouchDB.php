@@ -20,10 +20,10 @@ class CouchDB implements ICouchDB {
 		$this->client 	= new Client($this->dns);
 	}
 	
-		/**
+	/**
 	 * The database to use to request in CouchDB server
 	 * @params $nameDatabase : The database to create
-	 * @return $this;
+	 * @return true if success, else throw an Exception;
 	 */
 	public function useDatabase($nameDatabase) {
 		if ($this->databaseExist($nameDatabase)) {
