@@ -45,7 +45,6 @@ class Client {
 	* body : the response body (if any). If CouchDB server response Content-Type is application/json
 	*        the body will by json_decoded() as an associative array
 	*
-	* @static
 	* @param string $rawData data received from the server
 	* @return associative array response
 	* @throws Exception
